@@ -1,0 +1,207 @@
+{
+    "userWithPermission": {
+        "id": 803,
+        "fullname": "Suporte",
+        "email": "sv.coimbra@cargozilla.com.br",
+        "username": "suporte",
+        "blocked": false,
+        "tenants": [
+            {
+                "name": "test_carbolog",
+                "id": 48
+            }
+        ],
+        "companies": [
+            {
+                "id": 44,
+                "name": "carbolog"
+            },
+            {
+                "id": 45,
+                "name": "lgn"
+            },
+            {
+                "id": 42,
+                "name": "daudt_shell"
+            },
+            {
+                "id": 2,
+                "name": "daudt_cdpr"
+            },
+            {
+                "id": 4,
+                "name": "daudt_cdrs"
+            },
+            {
+                "id": 5,
+                "name": "daudt_cdsp"
+            },
+            {
+                "id": 47,
+                "name": "transpel"
+            },
+            {
+                "id": 3,
+                "name": "daudt_conen"
+            },
+            {
+                "id": 7,
+                "name": "yesbrazil_sp"
+            },
+            {
+                "id": 6,
+                "name": "yesbrazil_rj"
+            },
+            {
+                "id": 30,
+                "name": "transcaxias"
+            },
+            {
+                "id": 46,
+                "name": "venuxx"
+            },
+            {
+                "id": 50,
+                "name": "montanhatransportes"
+            },
+            {
+                "id": 49,
+                "name": "resolveexpress"
+            },
+            {
+                "id": 1,
+                "name": "ipiranga"
+            },
+            {
+                "id": 51,
+                "name": "koslog"
+            },
+            {
+                "id": 29,
+                "name": "attivilog"
+            }
+        ],
+        "userGroups": [
+            {
+                "id": 2,
+                "name": "Financeiro Completo",
+                "module": "financeiro"
+            },
+            {
+                "id": 1,
+                "name": "Go2Route Suporte",
+                "module": "go2route"
+            },
+            {
+                "id": 13,
+                "name": "Jornada",
+                "module": "jornada"
+            },
+            {
+                "id": 20,
+                "name": "DIESEL ADMIN",
+                "module": "diesel"
+            }
+        ],
+        "products": [
+            {
+                "id": 1,
+                "name": "financeiro"
+            }
+        ],
+        "modulePermissions": [
+            {
+                "name": "go2route",
+                "actions": [
+                    "tipos-de-documento",
+                    "relatorio-log-remessas",
+                    "motivo-espera",
+                    "especie-embalagem",
+                    "entrada-documentos",
+                    "regioes",
+                    "relatorio-saldo-jornada",
+                    "alerta-documentacao",
+                    "captacao-motoristas",
+                    "relatorio-documentos",
+                    "relatorio-calculos-impostos",
+                    "checkpoints",
+                    "veiculos",
+                    "descricoes-ocorrencia",
+                    "compartilhamento",
+                    "vinculos",
+                    "grupo-economico",
+                    "painel-pre-ocorrencias",
+                    "eventos",
+                    "cfop",
+                    "ufs-percurso",
+                    "relatorio-envios-sms",
+                    "oferta-cargas",
+                    "pessoas",
+                    "avaliacao-rotas",
+                    "documentos",
+                    "monitoramento",
+                    "remessas",
+                    "relatorio-ocorrencias",
+                    "ponto-de-apoio",
+                    "go2route-tracking",
+                    "tipo-cte",
+                    "dashboard-operacional",
+                    "importar-rotas",
+                    "classificacao-fiscal",
+                    "pre-ocorrencias",
+                    "formularios-de-avaliacao",
+                    "rotas",
+                    "centros-de-distribuicao",
+                    "ocorrencia-em-lote",
+                    "monitoramento-documentacao",
+                    "tipo-de-cargas",
+                    "planejamento-cargas",
+                    "produto-predominante",
+                    "parametros",
+                    "relatorio-dispersao-km",
+                    "relatorio-resumo-rotas",
+                    "relatorio-status-cargas",
+                    "trajeto",
+                    "inss",
+                    "tabela-preco-autonomo",
+                    "descricao-conjunto",
+                    "parametros-roteirizacao",
+                    "dashboard-visitas",
+                    "observacao-padrao",
+                    "produtos",
+                    "central-de-alertas",
+                    "cidades",
+                    "tipos-de-veiculo",
+                    "relatorio-auditoria-cargas",
+                    "rotas-padroes",
+                    "natureza-operacao",
+                    "contato-padrao",
+                    "usuarios",
+                    "ocorrencias",
+                    "relatorio-alertas",
+                    "go2route",
+                    "auditoria-ciot",
+                    "relatorio-regioes",
+                    "ciot",
+                    "relatorio-cargas",
+                    "eventos-jornada",
+                    "componente-valor-prestacao",
+                    "irpf",
+                    "relatorio-pre-ocorrencias",
+                    "relatorio-eventos",
+                    "relatorio-pessoas",
+                    "alertas",
+                    "status-cargas",
+                    "tipo-de-alertas",
+                    "relatorio-resumo-jornada",
+                    "relatorio-rotas",
+                    "dashboard-avaliacoes",
+                    "motivo-cancelamento",
+                    "conjunto"
+                ]
+            }
+        ]
+    },
+    "iat": 1704827910,
+    "exp": 1704914310
+}

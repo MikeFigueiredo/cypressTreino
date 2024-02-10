@@ -1,0 +1,8 @@
+node_modules
+cypress/support/dadosSensiveis.js
+cypress/fixtures/fixtureLogin.json
+cypress/e2e/1-getting-started
+cypress/e2e/2-advanced-examples
+cypress/e2e/3-Código referência
+cypress/e2e/examples
+cypress/downloads

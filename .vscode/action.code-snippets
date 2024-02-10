@@ -1,0 +1,140 @@
+{
+  "Create new cy.action": {
+    "scope": "javascript,typescript",
+    "prefix": "action",
+    "body": ["cy.action({attr: '$1', text: 'opcional'})", "$2"],
+    "description": "Generate new cy.action"
+  },
+  "Create new cy.act": {
+    "scope": "javascript,typescript",
+    "prefix": "act",
+    "body": [".act('$1')", "$2"],
+    "description": "Generate new cy.act"
+  },
+  "generate scenario": {
+    "scope": "javascript,typescript",
+    "prefix": "scenario",
+    "body": ["Scenario('$1', function()  {}, {});", "$2"],
+    "description": "generate scenario"
+  },
+  "generate given": {
+    "scope": "javascript,typescript",
+    "prefix": "given",
+    "body": ["Given('$1', function()  {}, {});", "$2"],
+    "description": "generate given"
+  },
+  "generate when": {
+    "scope": "javascript,typescript",
+    "prefix": "when",
+    "body": ["when('$1', function()  {}, {});", "$2"],
+    "description": "generate when"
+  },
+  "generate And": {
+    "scope": "javascript,typescript",
+    "prefix": "and",
+    "body": ["And('$1', function()  {}, {});", "$2"],
+    "description": "generate And"
+  },
+  "generate Then": {
+    "scope": "javascript,typescript",
+    "prefix": "then",
+    "body": ["Then('$1', function()  {}, {});", "$2"],
+    "description": "generate Then"
+  },
+  "generate cenario": {
+    "scope": "javascript,typescript",
+    "prefix": "cenario",
+    "body": ["Cenario('$1', function()  {}, {});", "$2"],
+    "description": "generate Cenario"
+  },
+  "generate Dado": {
+    "scope": "javascript,typescript",
+    "prefix": "dado",
+    "body": ["Dado('$1', function()  {}, {});", "$2"],
+    "description": "generate Dado"
+  },
+  "generate Quando": {
+    "scope": "javascript,typescript",
+    "prefix": "quando",
+    "body": ["Quando('$1', function()  {}, {});", "$2"],
+    "description": "generate Quando"
+  },
+  "generate E": {
+    "scope": "javascript,typescript",
+    "prefix": "e",
+    "body": ["E('$1', function()  {}, {});", "$2"],
+    "description": "generate E"
+  },
+  "generate Entao": {
+    "scope": "javascript,typescript",
+    "prefix": "entao",
+    "body": ["Entao('$1', function()  {}, {});", "$2"],
+    "description": "generate Entao"
+  },
+  "generate test bdd": {
+    "scope": "javascript,typescript",
+    "prefix": "test_bdd",
+    "body": [
+      "import {Given, Scenario,faker, When,And, Then} from '../support/e2e'; ",
+      "Scenario('', function () {",
+      "before(() => {cy.crudVisit(''); });",
+      "Given('', function () {}, {});});"
+    ],
+    "description": "generate full test"
+  },
+  "generate test describes its": {
+    "scope": "javascript,typescript",
+    "prefix": "test_des_its",
+    "body": [
+      "const { faker } = require("../../support/e2e"); ",
+      "describe('', function () {",
+      "  before(()=>{cy.crudVisit('')})",
+      "it('', function () {});"
+    ],
+    "description": "generate full test describes its"
+  },
+  "generate test action": {
+    "scope": "javascript,typescript",
+    "prefix": "test_action",
+    "body": [
+      "const { faker } = require("../../support/e2e"); ",
+      "describe('', function()  {",
+      "  before(()=>{cy.crudVisit('')})",
+      " it('', function() { });});"
+    ],
+    "description": "generate full test"
+  },
+  "generate test": {
+    "scope": "javascript,typescript",
+    "prefix": "test_bdd_BR",
+    "body": [
+      "import {Dado, Cenario, faker, Quando,E, Entao} from '../support/e2e'; ",
+      "Cenario('$1', function () {",
+      "before(() => {cy.crudVisit(''); })",
+      "Dado('$2', function () {}, {});",
+      "Quando('$3', function () {}, {});",
+      "E('$4', function () {}, {});",
+      "Entao('$5', function () {}, {});",
+      "});"
+    ],
+    "description": "generate full test"
+  },
+  "generate elseIf": {
+    "scope": "javascript,typescript",
+    "prefix": "elseIf",
+    "body": [
+      "cy.elseIf('input[name=\\\"name\\\"]').type('test', {force: true})",
+      "$2"
+    ],
+    "description": "generate elseIf"
+  },
+  "generate If": {
+    "scope": "javascript,typescript",
+    "prefix": "If",
+    "body": [
+      ".If('input[name=\\\"name\\\"]')",
+      "$2"
+    ],
+    "description": "generate If"
+  }
+  }

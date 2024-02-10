@@ -1,0 +1,57 @@
+[
+    {
+        "id": 12,
+        "nome": "UNIMETAL TAUBATE",
+        "sigla": "UNI TAU",
+        "empresaId": 44,
+        "latitude": -23.0646,
+        "longitude": -45.63271,
+        "inativar": null,
+        "createdAt": "2023-07-24T17:18:52.406Z",
+        "updatedAt": "2023-07-24T17:18:52.406Z"
+    },
+    {
+        "id": 14,
+        "nome": "UNIMETAL VESPASIANO",
+        "sigla": "UNI VES",
+        "empresaId": 44,
+        "latitude": -19.703958,
+        "longitude": -43.911007,
+        "inativar": null,
+        "createdAt": "2023-07-24T17:20:30.956Z",
+        "updatedAt": "2023-07-24T17:20:30.956Z"
+    },
+    {
+        "id": 11,
+        "nome": "UNIMETAL COSMOPOLIS",
+        "sigla": "UNI COS",
+        "empresaId": 44,
+        "latitude": -22.687263,
+        "longitude": -47.159264,
+        "inativar": null,
+        "createdAt": "2023-07-24T17:17:36.092Z",
+        "updatedAt": "2023-07-24T17:22:09.771Z"
+    },
+    {
+        "id": 13,
+        "nome": "UNIMETAL SAO VICENTE",
+        "sigla": "UNI SV",
+        "empresaId": 44,
+        "latitude": -23.92812,
+        "longitude": -46.45971,
+        "inativar": null,
+        "createdAt": "2023-07-24T17:19:43.427Z",
+        "updatedAt": "2023-07-24T17:22:26.233Z"
+    },
+    {
+        "id": 10,
+        "nome": "UNIMETAL SOROCABA",
+        "sigla": "UNI SOR",
+        "empresaId": 44,
+        "latitude": -23.43516,
+        "longitude": -47.35825,
+        "inativar": null,
+        "createdAt": "2023-07-24T17:15:40.661Z",
+        "updatedAt": "2023-07-24T17:22:41.823Z"
+    }
+]
